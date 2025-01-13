@@ -1,1 +1,14 @@
-Hello ...
+x = int(input('Please enter a grade: '))
+
+if x == 1:
+    print('Grade is one')
+elif x == 2:
+    print('Grade is two')
+elif x == 3:
+    print('Grade is three')
+elif x == 4:
+    print('Grade is four')
+elif x == 5:
+    print('Grade is five')
+else:
+    print('Invalid grade')
